@@ -1,4 +1,5 @@
-text = "Faseeh Ullah"
+Student_name = ["Faseeh", "Saif", "Huzaifa",
+                "Abdul Sami", "Shahmeer", "Bilal", "Abdul Razzaq", "Ayan", "Anas", "Saif"]
 
-print(text.lower())
-print(text.upper())
+print(Student_name.count("Saif"))
+print(len(Student_name))

@@ -40,6 +40,9 @@ print("ha" * 7)  # This wil Print "ha" for 7 times like "hahahahahahaha.."
 print("=" * 20)  # This will Print = Symbol 10 Times
 
 
+
+
+# ---------------------------------------------
 # Extractions of String by Index
 text = "Python"
 print(text[0:4])
@@ -73,3 +76,36 @@ print(date[5:7])
 # By Negative values
 print(date[-4])
 print(date[-5:-3])
+
+
+
+
+# --------------New Day--------------
+# Whitespace cleanup
+
+text = " Pakistan".lstrip()
+print(text)
+
+text = "Pakistan ".rstrip()
+print(text)
+
+text = " Pakistan ".strip()
+print(text)
+
+
+text = "###Pakistan####".strip("#")
+print(text)
+
+text = "  Pakistan"
+print(len(text))
+print(len(text.strip()))
+
+print(len(text) - len(text.strip()))
+
+
+# Case Converstations
+
+text = "Faseeh Ullah"
+
+print(text.lower())
+print(text.upper())

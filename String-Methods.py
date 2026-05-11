@@ -83,7 +83,7 @@ print("=" * 20)  # This will Print = Symbol 10 Times
 
 
 # ---------------------------------------------
-# 3.5 Extractions of String by Index
+# 3.5 Slicicng Extractions of String by Index
 text = "Python"
 print(text[0:4])
 
